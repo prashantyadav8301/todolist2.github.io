@@ -10,11 +10,12 @@ add.addEventListener('click', function () {
     input.value = "";
     paragraph.addEventListener('click', function () {
         paragraph.style.textDecoration = "line-through";
+        // paragraph.addEventListener('click', function () {
+        //     paragraph.style.textDecoration = "none";
+        // });
         paragraph.addEventListener('click', function () {
-            paragraph.style.textDecoration = "none";
+            todocontainer.removeChild(paragraph);
         });
-    });
-    paragraph.addEventListener('dblclick', function () {
-        todocontainer.removeChild(paragraph);
+
     });
 });
