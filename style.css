@@ -1,6 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    text-align: center;
 }
 
 .container {
@@ -8,7 +12,8 @@
     margin-left: 40%;
     margin-top: 100px;
 }
-h1{
+
+h1 {
     /* margin-left: 40%; */
     text-align: center;
 }
@@ -47,8 +52,8 @@ h1{
     font-size: 30px;
 }
 
-@media screen and (max-width:396px) {
-    .container{
-        margin: 50px 20px;
+@media screen and (max-width:800px) {
+    .container {
+        margin: 50px auto;
     }
 }
